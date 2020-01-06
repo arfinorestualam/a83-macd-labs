@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "<alamres.database.windows.net>";
-    $user = "<darkalam@alamres>";
-    $pass = "<12345Azure>";
-    $db = "<alamDb>";
+    $host = "alamres.database.windows.net";
+    $user = "darkalam@alamres";
+    $pass = "12345Azure";
+    $db = "alamDb";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
