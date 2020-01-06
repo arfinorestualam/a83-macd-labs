@@ -26,8 +26,8 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "https://alamres.azurewebsites.net";
-    $user = "darkalam";
+    $host = "alamres.database.windows.net";
+    $user = "darkalam@alamres";
     $pass = "12345Azure";
     $db = "alamDb";
 
